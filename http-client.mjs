@@ -1,7 +1,7 @@
-import https from "https";
+import http from "http";
 
-const endpoint = "https://url";
-const request = https.request(
+const endpoint = "http://localhost:3000";
+const request = http.request(
   endpoint,
   {
     method: "POST",
